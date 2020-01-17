@@ -1,3 +1,6 @@
+/*  Name    : Mohd Ashif
+    course  : Bsc(h)CS
+    Year    : 1st  */
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -59,20 +62,16 @@ int main()
 		}
 		cout<<"\nResult Of Search using Recursion : ";
 		if(result_recursion == 1){
-			cout<<"True";
+			cout<<"True (Number Found)";
 		}else{
-			cout<<"False";
+			cout<<"False (Not Found)";
 		}
 		cout<<"\nResult Of Search Using Iteration : ";
 		if(result_iterative == 1){
-			cout<<"True";
+			cout<<"True (Number Found)";
 		}else{
-			cout<<"False";
+			cout<<"False (Not Found)";
 		}
 		
-		
-		
-
-
-  return 0;
+		return 0;
 }
