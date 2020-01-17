@@ -62,15 +62,15 @@ int main()
 		}
 		cout<<"\nResult Of Search using Recursion : ";
 		if(result_recursion == 1){
-			cout<<"True (Number Found)";
+			cout<<"True (Element Exist)";
 		}else{
-			cout<<"False (Not Found)";
+			cout<<"False (Element Not Found)";
 		}
 		cout<<"\nResult Of Search Using Iteration : ";
 		if(result_iterative == 1){
-			cout<<"True (Number Found)";
+			cout<<"True (Element Exist)";
 		}else{
-			cout<<"False (Not Found)";
+			cout<<"False (Element Not Found)";
 		}
 		
 		return 0;
